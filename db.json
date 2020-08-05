@@ -1,14 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "people": [
+    { "First Name": "John", "Last Name": "Smith", "Occupation": "Programmer", "Age": 25},
+    { "First Name": "James", "Last Name": "Jones", "Occupation": "Designer", "Age": 32},
+    { "First Name": "Jane", "Last Name": "Doe", "Occupation": "Project Manager", "Age": 38}
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "This is a comment from the first post", "postId": 1 },
+    { "id": 2, "body": "Second comment that was posted", "postId": 2 }
   ],
-  "profile": {
-    "name": "typicode"
+  "projects": [
+    { "taskID": 1, "description": "Make Home Page Responsive", "priority": "Normal" },
+    { "taskID": 2, "description": "Add new feature to About Us Page", "priority": "Normal" },
+    { "taskID": 3, "description": "Fix bug on Contact Page", "priority": "High" }
+  ],
+  "clients": [
+    { "name": "Client A"},
+    { "name": "Client B"},
+    { "name": "Client C"}
+  ],
+  "ticket_system": {
+    "name": "Custom Ticket System"
   }
 }
